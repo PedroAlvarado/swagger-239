@@ -1,3 +1,14 @@
+
+This project reproduces issues seen https://github.com/wordnik/swagger-core/issues/239.
+
+Step:
+
+1)mvn clean package -DskipTests
+2)deploy war to tomcat
+3)go to http://localhost:8080/api/api-docs
+4)Notice unexpected error, with stacktrace
+
+---------------------------------------------------------------
 mvn clean package tomcat6:run
 
 # Swagger CXF Sample App
